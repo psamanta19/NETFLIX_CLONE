@@ -1,4 +1,4 @@
-import { renderReasons } from "./components/reasons";
+import { renderReasons } from "./components/reasons.js";
 
 const trendingWindow = document.querySelector(".trending-window");
 const movieCards = document.querySelectorAll(".movie-card");

@@ -3,7 +3,7 @@ const reasons = [
         title: "Enjoy on your TV",
         description:
             "Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.",
-        image: "./assets/tv.png"
+        image: "./assets/monitor.png"
     },
 
     {
@@ -17,7 +17,7 @@ const reasons = [
         title: "Watch everywhere",
         description:
             "Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.",
-        image: "./assets/telescope.png"
+        image: "./assets/telescopee.png"
     },
 
     {
@@ -35,7 +35,7 @@ function cretaeReasonCard(reason){
     const description = document.createElement("p");
     description.textContent = reason.description;
 
-    const image = document.createElement()
+    const image = document.createElement("img");
     image.src = reason.image;
     image.alt = reason.title;
 
